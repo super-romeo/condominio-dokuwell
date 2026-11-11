@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Per amministratori di condominio: bilanci, ripartizione per millesimi, assemblee, rate dei condomini e pagamenti F24 in cloud.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">CondoCloud</a></div>
-  <nav class="top"><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">CondoCloud</a>
+  <nav><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Il gestionale in cloud per l'amministratore di condominio — bilanci, millesimi, assemblee e F24</h1>
-    <p class="sub">Per studi di amministrazione condominiale: preventivo e consuntivo, ripartizione delle spese per millesimi, rate dei condomini, convocazioni e verbali di assemblea e pagamenti F24, accessibili ovunque dal browser.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Mi serve</a>
-    <p class="cta-note">Accesso anticipato · Su questa pagina non si accettano ancora pagamenti</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Per studi di amministrazione condominiale</p>
+      <h1 class="rise" style="--i:1" data-len="long">Il gestionale in cloud per l'amministratore di condominio&nbsp;<span class="soft">— bilanci, millesimi, assemblee e F24</span></h1>
+      <p class="rise" style="--i:2">Per studi di amministrazione condominiale: preventivo e consuntivo, ripartizione delle spese per millesimi, rate dei condomini, convocazioni e verbali di assemblea e pagamenti F24, accessibili ovunque dal browser.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Mi serve</a>
+      <p class="meta rise" style="--i:4">Accesso anticipato · Su questa pagina non si accettano ancora pagamenti</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">CondoCloud</text><line x1="130" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" font-weight="600" fill="#0a1524">Preventivo</text><rect x="130" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="402" font-size="32" font-weight="600" fill="#0a1524">consuntivo</text><rect x="130" y="480" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="512" font-size="32" font-weight="600" fill="#0a1524">Rate</text><rect x="200" y="580" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="320" font-size="34" font-weight="600" fill="#0a1524">F24</text><rect x="730" y="400" width="52" height="220" rx="8" fill="#ffffff" /><rect x="820" y="470" width="52" height="150" rx="8" fill="#b9c3d2" /><rect x="910" y="360" width="52" height="260" rx="8" fill="#12397a" /><rect x="1000" y="440" width="52" height="180" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Per</dt><dd>Studi di amministrazione</dd></div>
+      <div><dt>Bilanci</dt><dd>Preventivo e consuntivo</dd></div>
+      <div><dt>Browser</dt><dd>Dal browser</dd></div>
+      <div><dt>Servizio</dt><dd>È in preparazione</dd></div>
+    </dl>
+  </section>
 
   <section id="cosa" data-view="features_view">
-    <h2>Cosa ottieni</h2>
-    <div class="grid">
-      <div class="card"><b>Bilanci</b><span>Preventivo e consuntivo di ogni condominio, stampabili in ogni momento.</span><br><a class="btn" href="price.html" data-ev="feature_bilanci">Mi serve</a></div>
-      <div class="card"><b>Ripartizione millesimale</b><span>Spese ripartite per tabelle millesimali o altri coefficienti.</span><br><a class="btn" href="price.html" data-ev="feature_millesimi">Mi serve</a></div>
-      <div class="card"><b>Assemblee</b><span>Convocazioni, ordine del giorno e verbali.</span><br><a class="btn" href="price.html" data-ev="feature_assemblee">Mi serve</a></div>
-      <div class="card"><b>Pagamenti e F24</b><span>Rate dei condomini, solleciti e preparazione dei pagamenti F24.</span><br><a class="btn" href="price.html" data-ev="feature_f24">Mi serve</a></div>
+    <div class="stack"><h2>Cosa ottieni</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" font-weight="600" fill="#0a1524">Bilanci</text><rect x="120" y="220" width="320" height="28" rx="10" fill="#dde2ea" /><rect x="120" y="280" width="240" height="28" rx="10" fill="#b9c3d2" /><rect x="120" y="340" width="280" height="28" rx="10" fill="#dde2ea" /><rect x="120" y="400" width="180" height="28" rx="10" fill="#dde2ea" /><circle cx="600" cy="360" r="62" fill="#dfe8f7" /><polyline points="566,360 592,388 640,328" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Bilanci</h3><p>Preventivo e consuntivo di ogni condominio, stampabili in ogni momento.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_bilanci">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" font-weight="600" fill="#0a1524">Ripartizione millesimale</text><line x1="140" y1="486" x2="620" y2="486" stroke="#dde2ea" stroke-width="4" /><rect x="160" y="310" width="64" height="160" rx="8" fill="#dfe8f7" /><rect x="270" y="230" width="64" height="240" rx="8" fill="#12397a" /><rect x="380" y="350" width="64" height="120" rx="8" fill="#b9c3d2" /><rect x="490" y="270" width="64" height="200" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Ripartizione millesimale</h3><p>Spese ripartite per tabelle millesimali o altri coefficienti.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_millesimi">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="34" font-weight="600" fill="#0a1524">Assemblee</text><rect x="120" y="220" width="36" height="36" rx="8" fill="#12397a" /><rect x="176" y="226" width="460" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="300" width="36" height="36" rx="8" fill="#dfe8f7" /><rect x="176" y="306" width="380" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="380" width="36" height="36" rx="8" fill="#dde2ea" /><rect x="176" y="386" width="420" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="460" width="36" height="36" rx="8" fill="#dfe8f7" /><rect x="176" y="466" width="300" height="24" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Assemblee</h3><p>Convocazioni, ordine del giorno e verbali.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_assemblee">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" font-weight="600" fill="#0a1524">Pagamenti e F24</text><rect x="120" y="210" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,232 140,244 156,222" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="184" y="220" width="420" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="310" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,332 140,344 156,322" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="184" y="320" width="300" height="24" rx="12" fill="#b9c3d2" /><rect x="120" y="410" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="420" width="360" height="24" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Pagamenti e F24</h3><p>Rate dei condomini, solleciti e preparazione dei pagamenti F24.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_f24">Mi serve</a>
+      </article>
     </div>
   </section>
 
-  <section id="esempio" data-view="example_view">
-    <h2>Esempio (dati di fantasia)</h2>
-    <p class="fine">Studio con 18 condomini a Bologna. Per un condominio di 24 unità: tabelle millesimali importate, preventivo approvato, rate trimestrali emesse. Una fattura di manutenzione dell'ascensore viene ripartita sulla tabella scale; il consuntivo di fine anno e la convocazione dell'assemblea sono pronti in pochi minuti.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+  <section id="esempio" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Esempio</h2>
+      <p>Studio con 18 condomini a Bologna. Per un condominio di 24 unità: tabelle millesimali importate, preventivo approvato, rate trimestrali emesse. Una fattura di manutenzione dell'ascensore viene ripartita sulla tabella scale; il consuntivo di fine anno e la convocazione dell'assemblea sono pronti in pochi minuti.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">Bologna</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">preventivo</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">assemblea</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">tabella scale</text><rect x="170" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="248" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="326" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><rect x="404" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><rect x="482" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><rect x="560" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><text x="170" y="620" font-size="32" fill="#566174">consuntivo</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Come funziona</h2>
-    <p>Un amministratore di condominio segue molti edifici, ognuno con le sue tabelle millesimali, i suoi fornitori, le sue rate e le sue assemblee. Se ogni condominio vive in un file diverso, il lavoro si moltiplica e gli errori di ripartizione emergono solo a fine anno. CondoCloud raccoglie tutti i condomini dello studio in un solo gestionale in cloud.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Come funziona</h2></div>
+    <div class="stack">
+      <p>Un amministratore di condominio segue molti edifici, ognuno con le sue tabelle millesimali, i suoi fornitori, le sue rate e le sue assemblee. Se ogni condominio vive in un file diverso, il lavoro si moltiplica e gli errori di ripartizione emergono solo a fine anno. CondoCloud raccoglie tutti i condomini dello studio in un solo gestionale in cloud.</p>
     <p>Per ogni condominio inserisci le unità immobiliari, i condomini e le tabelle millesimali che hai già, oppure le importi da file. Oltre ai millesimi si possono usare altri coefficienti, per esempio per scale, ascensore o riscaldamento.</p>
     <p>Le spese vengono registrate e ripartite automaticamente sulla tabella giusta. Il preventivo e il consuntivo si stampano in ogni momento, e ogni condomino vede la propria quota con il dettaglio delle voci.</p>
     <p>Le rate si emettono secondo il piano approvato, gli incassi si abbinano alle unità e i ritardi sono visibili subito, con solleciti inviati per e-mail. Per i pagamenti ai fornitori e le ritenute, i modelli F24 vengono preparati dai dati già registrati.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Le comunicazioni ai condomini — avvisi di lavori, interruzioni dell'acqua, scadenze delle rate — partono dal gestionale per e-mail a tutti o solo ai condomini interessati, e restano archiviate con la data di invio. Quando qualcuno dice di non aver ricevuto un avviso, la traccia è nel gestionale.</p>
     <p>I documenti di ogni condominio — regolamento, verbali, contratti con i fornitori, certificazioni degli impianti — sono archiviati con le date e si ritrovano in pochi secondi. Se un condominio passa a un altro amministratore, l'archivio si esporta completo, senza cartelle di carta da ricostruire.</p>
     <p>CondoCloud è uno strumento di gestione e non sostituisce la consulenza legale o fiscale. Le responsabilità dell'amministratore restano invariate.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Domande frequenti</h2>
-    <h3>A chi si rivolge CondoCloud?</h3>
-    <p>Ad amministratori di condominio professionisti e piccoli studi.</p>
-    <h3>Posso importare le mie tabelle millesimali?</h3>
-    <p>Sì, da file, insieme ad anagrafiche e unità.</p>
-    <h3>Prepara i modelli F24?</h3>
-    <p>Sì, dai dati di pagamento già registrati.</p>
-    <h3>I condomini possono accedere?</h3>
-    <p>Sì, ognuno vede la propria situazione e i documenti del condominio.</p>
-    <h3>Posso già usarlo?</h3>
-    <p>Non ancora. Il servizio è in preparazione e stiamo verificando se serve agli amministratori.</p>
+    <div class="stack"><h2>Domande frequenti</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>A chi si rivolge CondoCloud?</h3><p>Ad amministratori di condominio professionisti e piccoli studi.</p></div>
+      <div class="split flip"><h3>Posso importare le mie tabelle millesimali?</h3><p>Sì, da file, insieme ad anagrafiche e unità.</p></div>
+      <div class="split flip"><h3>Prepara i modelli F24?</h3><p>Sì, dai dati di pagamento già registrati.</p></div>
+      <div class="split flip"><h3>I condomini possono accedere?</h3><p>Sì, ognuno vede la propria situazione e i documenti del condominio.</p></div>
+      <div class="split flip"><h3>Posso già usarlo?</h3><p>Non ancora. Il servizio è in preparazione e stiamo verificando se serve agli amministratori.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Aggiungi il primo condominio</h2>
-    <p><label>Condomini gestiti<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— scegli —</option><option>1–5</option><option>6–10</option><option>11–30</option><option>Più di 30</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Aggiungi condominio</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Aggiungi il primo condominio</h2>
+    </div>
+    <div class="tile stack">
+      <label>Condomini gestiti<select data-ev-focus="form_start"><option value="">— scegli —</option><option>1–5</option><option>6–10</option><option>11–30</option><option>Più di 30</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Aggiungi condominio</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>CondoCloud</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Strumento di gestione; non sostituisce la consulenza legale o fiscale. Le responsabilità dell'amministratore restano invariate.</p>
+  <p>Strumento di gestione; non sostituisce la consulenza legale o fiscale. Le responsabilità dell'amministratore restano invariate.</p>
 </div></footer>
 
 </body>
